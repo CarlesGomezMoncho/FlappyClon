@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float impuls = 5;
     public GameObject limitInferior;
+    public Animator playerAnimator;
 
     private Rigidbody2D rb;
     private bool addForce = false;
@@ -14,8 +15,9 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        startPosition = transform.position;
 
+        startPosition = transform.position;
+        
         Init();
     }
 
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour
                     break;
                 case State.game:
                     addForce = true;
+                    playerAnimator.SetTrigger("Fly");
                     break;
                 case State.end:
                     break;
@@ -60,6 +63,7 @@ public class PlayerController : MonoBehaviour
     public void End()
     {
         GameController.Instance.state = State.end;
+        playerAnimator.SetTrigger("End");
     }
 
     public void Init()
@@ -73,7 +77,12 @@ public class PlayerController : MonoBehaviour
     public void StartMovement()
     {
         GameController.Instance.state = State.game;
+        playerAnimator.SetTrigger("Game");
         rb.simulated = true;
     }
 
+    public void InitAnimation()
+    {
+        playerAnimator.SetTrigger("Init");
+    }
 }

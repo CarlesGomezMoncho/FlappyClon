@@ -48,6 +48,7 @@ public class GameController : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     player.Init();
+                    player.InitAnimation();//sols se crida al initanimation quan mor i ha de resucitar
                 }
                 break;
             default:
