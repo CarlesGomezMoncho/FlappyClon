@@ -7,6 +7,9 @@ public class GameController : MonoBehaviour
     public PlayerController player;
     public State state;
 
+    public GameObject panelStart;
+    public GameObject panelEnd;
+
     private static GameController _instance;
 
     public static GameController Instance { get { return _instance; } }
@@ -35,16 +38,20 @@ public class GameController : MonoBehaviour
         {
             case State.start:
                 player.Init();
-                //mostrem pantalla de inici
+
+                panelStart.SetActive(true);
+                panelEnd.SetActive(false);
+
                 if (Input.GetMouseButtonDown(0))
                 {
                     player.StartMovement();
                 }
                 break;
             case State.game:
+                panelStart.SetActive(false);
                 break;
             case State.end:
-                //mostrem pantalla de fi
+                panelEnd.SetActive(true);
                 if (Input.GetMouseButtonDown(0))
                 {
                     player.Init();

@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 364bb72659bcf59459446097d7ae152a
+guid: 92da3acc3d156d94a80ecd45b00f2d56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1398908526120752921
-    second: Pardal_volant 1_0
+      213: -9141214782476845106
+    second: nubols_0
   - first:
-      213: -551619629176132290
-    second: Pardal_volant 1_1
+      213: 7077866311740147319
+    second: nubols_1
   - first:
-      213: -3676599649157295572
-    second: Pardal_volant 1_2
+      213: 6269275702412129306
+    second: nubols_2
   - first:
-      213: -8080884805830028250
-    second: Pardal_volant 1_3
+      213: -272095412853740623
+    second: nubols_3
   - first:
-      213: -3616045873702723616
-    second: Pardal_volant 1_4
+      213: -8721249587135867712
+    second: nubols_4
   - first:
-      213: 5813899470118703636
-    second: Pardal_volant 1_5
+      213: -739358639555105543
+    second: nubols_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pardal_volant 1_0
+      name: nubols_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 13
-        height: 10
+        x: 9
+        y: 348
+        width: 153
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2797a182e2074ca4c94a47a1ae1b8c7f
-      internalID: -1398908526120752921
+      spriteID: 261e324346fcedb45a3da6025d47953a
+      internalID: -9141214782476845106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_1
+      name: nubols_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
-        width: 13
-        height: 10
+        x: 385
+        y: 400
+        width: 80
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c334ccfcc72f48c4e9d01b1f74136d85
-      internalID: -551619629176132290
+      spriteID: b53048fcbf7379f46843e358b209b033
+      internalID: 7077866311740147319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_2
+      name: nubols_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2
-        width: 13
-        height: 10
+        x: 238
+        y: 273
+        width: 128
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c7193460a92c94cbdf5d8c3c16a117
-      internalID: -3676599649157295572
+      spriteID: 6067b5ed7f22b524b9a567dfae19aba6
+      internalID: 6269275702412129306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_3
+      name: nubols_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2
-        width: 13
-        height: 10
+        x: 114
+        y: 177
+        width: 63
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb0b43fabf1b9741907ab2595df2847
-      internalID: -8080884805830028250
+      spriteID: 0a3f5a57945e5684bafe0dc361df53ba
+      internalID: -272095412853740623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_4
+      name: nubols_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 2
-        width: 13
-        height: 10
+        x: 230
+        y: 125
+        width: 174
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb58db4e3e346d4d9cb542434f593a2
-      internalID: -3616045873702723616
+      spriteID: b764dbe285beabd4caddc2bed7519604
+      internalID: -8721249587135867712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_5
+      name: nubols_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 2
-        width: 13
-        height: 10
+        x: 69
+        y: 40
+        width: 147
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,8 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d328867b3ae458340b1efc9a1ea9e9d8
-      internalID: 5813899470118703636
+      spriteID: fba84db5fe6529649b47c6b1c8782ce8
+      internalID: -739358639555105543
       vertices: []
       indices: 
       edges: []
@@ -241,7 +241,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9e91e7b139f15dd4da1460cc819cc23a
+    spriteID: 254e858f5996c2640907ccd487b5468f
     internalID: 0
     vertices: []
     indices: 
