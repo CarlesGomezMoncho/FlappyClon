@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 364bb72659bcf59459446097d7ae152a
+guid: 58c06c588892d1a4e93da47554ca8bf7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1398908526120752921
-    second: Pardal_volant 1_0
+      213: -1103175884670580682
+    second: Arbres_0
   - first:
-      213: -551619629176132290
-    second: Pardal_volant 1_1
+      213: 6172133185364292751
+    second: Arbres_1
   - first:
-      213: -3676599649157295572
-    second: Pardal_volant 1_2
+      213: -6514447206871509935
+    second: Arbres_2
   - first:
-      213: -8080884805830028250
-    second: Pardal_volant 1_3
+      213: 23963911010441828
+    second: Arbres_3
   - first:
-      213: -3616045873702723616
-    second: Pardal_volant 1_4
-  - first:
-      213: 5813899470118703636
-    second: Pardal_volant 1_5
+      213: -472192970521808601
+    second: Arbres_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -52,9 +49,9 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -63,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,127 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pardal_volant 1_0
+      name: Arbres_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 10
+        y: 23
+        width: 74
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2797a182e2074ca4c94a47a1ae1b8c7f
-      internalID: -1398908526120752921
+      spriteID: fa9d212d0fb563c479c2d726a53b2cdc
+      internalID: -1103175884670580682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_1
+      name: Arbres_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 131
+        y: 26
+        width: 90
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 3, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c334ccfcc72f48c4e9d01b1f74136d85
-      internalID: -551619629176132290
+      spriteID: b0f6fa1498e702c408ef09c15eb4f12c
+      internalID: 6172133185364292751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_2
+      name: Arbres_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 268
+        y: 27
+        width: 74
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 2, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c7193460a92c94cbdf5d8c3c16a117
-      internalID: -3676599649157295572
+      spriteID: 44086daa67040df4982629ffbf633a82
+      internalID: -6514447206871509935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_3
+      name: Arbres_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 395
+        y: 34
+        width: 136
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb0b43fabf1b9741907ab2595df2847
-      internalID: -8080884805830028250
+      spriteID: c4925e1ff28ad5741959aef319a32aa7
+      internalID: 23963911010441828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pardal_volant 1_4
+      name: Arbres_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 621
+        y: 30
+        width: 90
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 2, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb58db4e3e346d4d9cb542434f593a2
-      internalID: -3616045873702723616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pardal_volant 1_5
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 2
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d328867b3ae458340b1efc9a1ea9e9d8
-      internalID: 5813899470118703636
+      spriteID: baf81b03cbeba7f4a9968c498e0704f9
+      internalID: -472192970521808601
       vertices: []
       indices: 
       edges: []
@@ -241,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9e91e7b139f15dd4da1460cc819cc23a
+    spriteID: 0ed5a5d7b3635354fa14d514e80bf642
     internalID: 0
     vertices: []
     indices: 

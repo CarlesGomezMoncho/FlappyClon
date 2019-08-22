@@ -9,8 +9,12 @@ public class GameController : MonoBehaviour
 
     public GameObject panelStart;
     public GameObject panelEnd;
+    public GameObject panelPlay;
+
+    public GameObject columnContainer;
 
     private static GameController _instance;
+    private int points;
 
     public static GameController Instance { get { return _instance; } }
 
@@ -41,6 +45,7 @@ public class GameController : MonoBehaviour
 
                 panelStart.SetActive(true);
                 panelEnd.SetActive(false);
+                panelPlay.SetActive(false);
 
                 if (Input.GetMouseButtonDown(0))
                 {
@@ -49,6 +54,7 @@ public class GameController : MonoBehaviour
                 break;
             case State.game:
                 panelStart.SetActive(false);
+                panelPlay.SetActive(true);
                 break;
             case State.end:
                 panelEnd.SetActive(true);
@@ -56,11 +62,37 @@ public class GameController : MonoBehaviour
                 {
                     player.Init();
                     player.InitAnimation();//sols se crida al initanimation quan mor i ha de resucitar
+                    DeleteColumns();
+                    DeletePoints();
                 }
                 break;
             default:
                 break;
         }
     }
+
+    private void DeleteColumns()
+    {
+        foreach (Transform t in columnContainer.transform)
+        {
+            Destroy(t.gameObject);
+        }
+    }
+
+    private void DeletePoints()
+    {
+        points = 0;
+    }
+
+    public void AddPoint()
+    {
+        points++;
+    }
+
+    public int GetPoints()
+    {
+        return points;
+    }
+
 
 }

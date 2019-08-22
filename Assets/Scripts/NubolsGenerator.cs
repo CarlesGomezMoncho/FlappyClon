@@ -9,7 +9,9 @@ public class NubolsGenerator : MonoBehaviour
 
     [Range(0, 1)]
     public float intensitat;
-    
+
+    public float despl = -2;
+
     void Start()
     {
         //nubolsList = new List<GameObject>();
@@ -23,7 +25,7 @@ public class NubolsGenerator : MonoBehaviour
         Camera cam = Camera.main;
         float camHeight = 2f * cam.orthographicSize;
 
-        float pos = Random.Range(-camHeight / 2, camHeight / 2);
+        float pos = Random.Range(-camHeight / 2 + despl, camHeight / 2 + despl);
 
         transform.position = new Vector2(transform.position.x, pos);
     }
@@ -34,12 +36,15 @@ public class NubolsGenerator : MonoBehaviour
         {
             yield return new WaitForSeconds(.5f);
 
-            float r = Random.value;
+            //if (GameController.Instance.state != State.end)
+            //{
+                float r = Random.value;
 
-            if (intensitat >= r)
-            {
-                DrawCloud();
-            }
+                if (intensitat >= r)
+                {
+                    DrawCloud();
+                }
+            //}
         }
     }
 
